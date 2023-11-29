@@ -53,7 +53,7 @@
         return {
             username,
             text,
-            time: moment().utcOffset("+00:00").format('h:mm a')
+            time: moment().utcOffset("+05:30").format('h:mm a')
         }
     }
 
